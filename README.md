@@ -1,24 +1,81 @@
 # AffordMed URL Shortener
 
-A frontend-only React + Vite + TailwindCSS URL shortener with temporary links stored in `localStorage`, click tracking, and a statistics page.
+A simple, fast, and lightweight **URL Shortener** built with **React + Vite + TailwindCSS**.  
+This project allows users to shorten long URLs, manage them locally, and quickly copy/share shortened links.
 
-## Run locally
+---
 
-```bash
+## 🚀 Features
+- Shorten up to **5 URLs at a time**.
+- **Validate URLs** before shortening.
+- Generate unique short codes using **nanoid**.
+- Save shortened URLs in **localStorage** so they persist after refresh.
+- **Copy short links** with one click.
+- **Delete links** when no longer needed.
+- Responsive, clean, and simple UI built with **TailwindCSS**.
+- Uses **React Router** for navigation (Home & About pages).
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend**: React + Vite  
+- **Styling**: TailwindCSS  
+- **Routing**: React Router DOM  
+- **ID Generation**: nanoid  
+- **Storage**: Browser LocalStorage  
+
+---
+
+## 📂 Project Structure
+affordmed-url-shortener/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable UI components
+│ │ ├── Navbar.jsx
+│ │ └── UrlCard.jsx
+│ ├── pages/ # Main pages
+│ │ ├── Home.jsx
+│ │ └── About.jsx
+│ ├── App.jsx # Main app structure
+│ ├── main.jsx # Entry point
+│ └── index.css # Tailwind styles
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/thvvamshi/23645a0504.git
 npm install
 npm run dev
-```
+http://localhost:5173
 
-Open the shown URL (default http://localhost:5173).
 
-## Build
+🎯 How It Works
 
-```bash
-npm run build
-npm run preview
-```
+Enter a valid long URL (e.g., https://example.com).
 
-## Notes
+The app validates the format.
 
-- Links expire 30 minutes after creation by default.
-- Events (`URL_SHORTENED`, `URL_CLICKED`) are logged to `sessionStorage`.
+A unique short code (e.g., aff.ly/abc123) is generated using nanoid.
+
+The mapping { shortCode → longURL } is saved in localStorage.
+
+Users can:
+
+Copy the short URL
+
+Open the original link
+
+Delete the entry
+
+Since it’s frontend-only, links are stored per browser/device.
+
+
+<img width="1860" height="789" alt="image" src="https://github.com/user-attachments/assets/f4d12407-1fc8-458b-b040-1b81a502cc2f" />
+

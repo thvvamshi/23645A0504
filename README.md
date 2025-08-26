@@ -91,3 +91,5 @@ You can read the detailed system design document here:
 👉 [AffordMed Professional System Design (PDF)](./AffordMed_Professional_System_Design.pdf)
 
 
+## Author
+👨‍💻 [thvvamshi](https://github.com/thvvamshi)

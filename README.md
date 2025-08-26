@@ -76,6 +76,10 @@ Delete the entry
 
 Since it’s frontend-only, links are stored per browser/device.
 
+<img width="1895" height="850" alt="Screenshot 2025-08-26 135507" src="https://github.com/user-attachments/assets/f7886744-378b-4114-a6fc-0ca85fb8a3b5" />
+
+<img width="1873" height="802" alt="Screenshot 2025-08-26 135612" src="https://github.com/user-attachments/assets/9bcc2cf9-e979-421b-96dd-6445e763a61c" />
+
 
 <img width="1860" height="789" alt="image" src="https://github.com/user-attachments/assets/f4d12407-1fc8-458b-b040-1b81a502cc2f" />
 

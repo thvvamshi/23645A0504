@@ -85,3 +85,9 @@ Since it’s frontend-only, links are stored per browser/device.
 
 <img width="1860" height="789" alt="image" src="https://github.com/user-attachments/assets/f4d12407-1fc8-458b-b040-1b81a502cc2f" />
 
+## **System Design**
+
+You can read the detailed system design document here:  
+👉 [AffordMed Professional System Design (PDF)](./AffordMed_Professional_System_Design.pdf)
+
+
